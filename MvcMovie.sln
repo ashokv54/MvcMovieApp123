@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{73AD5DC6-9684-456F-B900-1EBD38C02D22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{73AD5DC6-9684-456F-B900-1EBD38C02D22}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "db", "db\db.sqlproj", "{9CC64259-393C-4749-9556-08176F3D0541}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{73AD5DC6-9684-456F-B900-1EBD38C02D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73AD5DC6-9684-456F-B900-1EBD38C02D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73AD5DC6-9684-456F-B900-1EBD38C02D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC64259-393C-4749-9556-08176F3D0541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC64259-393C-4749-9556-08176F3D0541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC64259-393C-4749-9556-08176F3D0541}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9CC64259-393C-4749-9556-08176F3D0541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC64259-393C-4749-9556-08176F3D0541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC64259-393C-4749-9556-08176F3D0541}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
